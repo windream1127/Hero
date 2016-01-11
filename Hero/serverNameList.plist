@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>艾欧尼亚</string>
+	<string>祖安</string>
+	<string>诺克萨斯</string>
+	<string>班德尔城</string>
+	<string>皮尔特沃夫</string>
+	<string>战争学院</string>
+	<string>巨神峰</string>
+	<string>雷瑟守备</string>
+	<string>裁决之地</string>
+	<string>黑色玫瑰</string>
+	<string>暗影岛</string>
+	<string>钢铁烈阳</string>
+	<string>均衡教派</string>
+	<string>水晶之痕</string>
+	<string>影流</string>
+	<string>守望之海</string>
+	<string>征服之海</string>
+	<string>卡拉曼达</string>
+	<string>皮城警备</string>
+	<string>比尔吉沃特</string>
+	<string>德玛西亚</string>
+	<string>弗雷尔卓德</string>
+	<string>无畏先锋</string>
+	<string>恕瑞玛</string>
+	<string>扭曲丛林</string>
+	<string>巨龙之巢</string>
+	<string>教育网专区</string>
+</array>
+</plist>
