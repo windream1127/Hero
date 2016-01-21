@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3B033B2B1C3E6A180070C7A5 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B033B2A1C3E6A180070C7A5 /* RequestManager.swift */; };
 		3B033B2D1C3F8A130070C7A5 /* profileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B033B2C1C3F8A130070C7A5 /* profileVC.swift */; };
+		3B033B321C4388BF0070C7A5 /* AlwaysCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B033B311C4388BF0070C7A5 /* AlwaysCell.swift */; };
+		3B033B6D1C4CC7460070C7A5 /* LastUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B033B6C1C4CC7460070C7A5 /* LastUseView.swift */; };
 		3B457C961C33BBF600C3608B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B457C951C33BBF600C3608B /* AppDelegate.swift */; };
 		3B457C981C33BBF600C3608B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B457C971C33BBF600C3608B /* ViewController.swift */; };
 		3B457C9B1C33BBF600C3608B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B457C991C33BBF600C3608B /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 		21BE75E037EF37C313FFA3FC /* Pods-Hero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hero.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hero/Pods-Hero.debug.xcconfig"; sourceTree = "<group>"; };
 		3B033B2A1C3E6A180070C7A5 /* RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
 		3B033B2C1C3F8A130070C7A5 /* profileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileVC.swift; sourceTree = "<group>"; };
+		3B033B311C4388BF0070C7A5 /* AlwaysCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlwaysCell.swift; sourceTree = "<group>"; };
+		3B033B6C1C4CC7460070C7A5 /* LastUseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastUseView.swift; sourceTree = "<group>"; };
 		3B457C921C33BBF600C3608B /* Hero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B457C951C33BBF600C3608B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B457C971C33BBF600C3608B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +88,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3B033B681C4CC6EC0070C7A5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3B033B6C1C4CC7460070C7A5 /* LastUseView.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
 		3B457C891C33BBF600C3608B = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +119,7 @@
 		3B457C941C33BBF600C3608B /* Hero */ = {
 			isa = PBXGroup;
 			children = (
+				3B033B681C4CC6EC0070C7A5 /* view */,
 				3B86459F1C3E3D93009DEF22 /* model */,
 				3B86459C1C3CF977009DEF22 /* Resources */,
 				3B8645971C3A6FD0009DEF22 /* utilitise */,
@@ -117,6 +130,7 @@
 				3B457C9C1C33BBF600C3608B /* Assets.xcassets */,
 				3B457C9E1C33BBF600C3608B /* LaunchScreen.storyboard */,
 				3B033B2C1C3F8A130070C7A5 /* profileVC.swift */,
+				3B033B311C4388BF0070C7A5 /* AlwaysCell.swift */,
 			);
 			path = Hero;
 			sourceTree = "<group>";
@@ -333,8 +347,10 @@
 				3B8645991C3A7007009DEF22 /* WDMPIckView.swift in Sources */,
 				3B457C981C33BBF600C3608B /* ViewController.swift in Sources */,
 				3B033B2D1C3F8A130070C7A5 /* profileVC.swift in Sources */,
+				3B033B321C4388BF0070C7A5 /* AlwaysCell.swift in Sources */,
 				3B033B2B1C3E6A180070C7A5 /* RequestManager.swift in Sources */,
 				3B457C961C33BBF600C3608B /* AppDelegate.swift in Sources */,
+				3B033B6D1C4CC7460070C7A5 /* LastUseView.swift in Sources */,
 				3B86459B1C3CBCA0009DEF22 /* NetWorking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

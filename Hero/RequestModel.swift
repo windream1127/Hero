@@ -53,3 +53,45 @@ import Mantle
                 "status" : "status",]
     }
 }
+
+@objc(LastUsed)class LastUsed:MTLModel, MTLJSONSerializing{
+    
+    var userList:[LastUsedList]?;
+    var status:NSNumber!;
+    
+    
+    static func JSONKeyPathsByPropertyKey() -> [NSObject : AnyObject]!
+    {
+        return ["userList" : "userList",
+            "status" : "status",]
+    }
+    
+    static func userListJSONTransfrmer(){
+        
+    }
+}
+
+class LastUsedList:MTLModel, MTLJSONSerializing{
+    var hero_name:String!;
+    var choose_count:NSNumber!;
+    var hero_icon:String!;
+    var hero_per:String!;
+    
+    static func JSONKeyPathsByPropertyKey() -> [NSObject : AnyObject]!
+    {
+        return ["hero_name" : "hero_name",
+            "choose_count" : "choose_count",
+        "hero_icon" : "hero_icon",
+        "hero_per" : "hero_per",]
+    }
+}
+
+
+
+
+
+
+
+
+
+

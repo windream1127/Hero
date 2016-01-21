@@ -45,7 +45,7 @@ class RequestManager:NSObject{
         
         let modelClass:AnyClass? = NSClassFromString(className);
         
-        let dic:[String:String] = ["serverName":serverName,"playerName":playerName];
+        let dic:[String:String] = ["playerName":playerName,"serverName":serverName];
         self.GET(url, parameters: dic , success: { (object) -> Void in
             let model :AnyObject;
 
@@ -56,4 +56,5 @@ class RequestManager:NSObject{
                 failure?(error);
         };
     }
+    
 }
